@@ -1,0 +1,88 @@
+body {
+    color: rgba(141,0,133,255);
+    background-color: rgb(216, 218, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 15vw;
+    margin-top: 3vh;
+}
+
+.right {
+    width: 85vw;
+}
+
+.table {
+    display: grid;
+    width: 30vw;
+    border: 2px solid rgba(141,0,133,255);
+    grid-template-columns: 3vw 10vw auto;
+    grid-template-rows: repeat(9, 4vh);
+    grid-column-gap: 0.2vw;
+    grid-row-gap: 0.2vw;
+    padding: 0.2vw;
+
+}
+
+.cell {
+    border: 2px solid rgba(141,0,133,255);
+    align-items: center;
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    justify-content: center;
+}
+
+.emails {
+    margin: 10vw 0vw;
+    margin-top: 5vw;
+}
+
+.horse_audio {
+    margin: 0;
+}
+
+.dotted {
+    border-top: 1px dotted rgba(141,0,133,255);
+}
+
+.addition {
+    margin: 3vh 0vw;
+}
+ 
+a {
+    text-decoration: none;
+}
+  
+.link {
+
+    background-color: white;
+    padding: 2vw 1vh;
+    width: 10vw;
+    border-right: 1vw solid black;
+    text-align: center;
+    margin-bottom: 1vh;
+    z-index: 13;
+}
+
+ul {
+    list-style-type: circle;
+}
+.contents {
+    display: none;
+}
+
+.links:hover .contents{
+    display: block;
+}
+
+.hover:hover {
+    background-color: rgb(45, 153, 93);
+}
